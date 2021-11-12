@@ -1,3 +1,4 @@
+/*
 const slider = document.querySelector('#navcol-1');
 let isDown = false;
 let startX;
@@ -26,3 +27,4 @@ slider.addEventListener('mousemove', (e) => {
   console.log(walk);
 });
 
+*/

@@ -451,6 +451,7 @@ h4 {
   background: transparent;
   border-radius: 0;
   margin-right: 24px;
+  transition: all 0.2s ease-in-out;
 }
 
 .mix:hover {

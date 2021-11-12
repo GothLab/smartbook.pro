@@ -7,7 +7,7 @@
 
 .navbar-collapse {
   width: 100%;
-  overflow-x: scroll;
+  overflow-x: hidden;
   /*border-top: solid 1px rgb(194,194,194);*/
   flex-direction: row;
   flex-wrap: nowrap;
@@ -55,7 +55,7 @@
 .navbar {
   /*flex-wrap: nowrap;*/
   /*white-space: nowrap;*/
-  /*overflow-x: scroll;*/
+  overflow-x: hidden;
 }
 
 .btn {
@@ -238,5 +238,13 @@ li {
   position: absolute;
   right: 5%;
   bottom: 30%;
+}
+
+.table-responsive {
+  /*max-height: 100px;*/
+}
+
+.table-responsive .img-fluid {
+  max-height: 200px;
 }
 
