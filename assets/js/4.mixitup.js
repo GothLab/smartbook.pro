@@ -5,7 +5,7 @@
             
             
                         var loadMoreEl = document.querySelector('.load-more');
-            var currentLimit = 4;
+            var currentLimit = 7;
             var incrementAmount = 4;
 
             /**
