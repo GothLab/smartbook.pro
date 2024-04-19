@@ -260,7 +260,7 @@ h4 {
 }
 
 p {
-  color: #bbbbbb;
+  color: #bbbbbb!important;
 }
 
 .readButton {
@@ -277,10 +277,10 @@ p {
 .py-4 {
   display: flex;
   /*padding-bottom: 1.5rem !important;*/
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: start;
   display: flex;
   /*padding-bottom: 1.5rem !important;*/
