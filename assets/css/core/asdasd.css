@@ -316,3 +316,13 @@ h6 {
   margin-top: 10px;
 }
 
+#boosty:hover {
+  opacity: 100%!important;
+}
+
+.fra {
+  width: 30px;
+  opacity: 60%;
+  border-radius: 10px;
+}
+

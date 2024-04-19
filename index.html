@@ -42,10 +42,10 @@
 
 <body style="border-color: #2C2F33;background: var(--bs-navbar-active-color);overflow-x: hidden;">
     <nav class="navbar fixed-bottom navbar-light" style="background: #0e0e0e;border-top-left-radius: 0px;border-top-right-radius: 0px;bottom: 0px!important;/*position: absolute;*/border-bottom-left-radius: 0px;width: 100vw;height: 47px;">
-        <div class="container-fluid"><a class="navbar-brand" href="#" style="color: rgba(163,163,163,0.9);font-size: 12px;width: 13px;height: 31px;"><span class="logoz" style="margin-left: 7px;"></span><span style="font-family: 'SF Pro Display';font-weight: 617;letter-spacing: -0.2px;font-size: 16px;position: absolute;color: rgb(194,194,194);margin-right: 0px;margin-left: 15px;margin-top: -1px;">Smartbook</span></a>
-            <p style="font-size: 1em;background: #cc5d00;color: rgb(255,255,255);font-weight: 500;padding-left: 10px;padding-right: 8px;border-radius: 13px;margin-top: 0px;margin-bottom: 3px;margin-left: 39px;">Boosty Donate</p>
-            <p style="font-size: 8px;margin-bottom: 0px;"><strong>TOP DONATION:</strong><em>10.000 </em>Иванов Ю.<br><br></p>
-            <p style="font-size: 8px;margin-bottom: 0px;"><em>LAST DONATION: </em><br><em>10.000&nbsp;</em>Иванов Ю.</p><span style="font-size: 10px;color: rgba(94,94,94,0.72);margin-right: 11px;">Copyright © 2024 <strong>Smartbook.pro.</strong> All rights reserved.</span>
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="color: rgba(163,163,163,0.9);font-size: 12px;width: 13px;height: 31px;"><span class="logoz" style="margin-left: 7px;"></span><span class="d-none d-sm-inline" style="font-family: 'SF Pro Display';font-weight: 617;letter-spacing: -0.2px;font-size: 16px;position: absolute;color: rgb(194,194,194);margin-right: 0px;margin-left: 15px;margin-top: -1px;">Smartbook</span></a>
+            <p id="boosty" style="font-size: 1em;background: #cc5d00;color: rgb(255,255,255)!important;opacity: 80%;font-weight: 500;padding-left: 10px;padding-right: 8px;border-radius: 13px;margin-top: 0px;margin-bottom: 3px;cursor: pointer;margin-left: 39px;">Boosty Donate</p>
+            <p style="font-size: 10px;margin-bottom: 0px;user-select: none;"><strong>TOP DONATION:&nbsp; &nbsp;</strong>Иванов Ю. 10.000</p>
+            <p class="d-none d-sm-inline" style="font-size: 10px;user-select: none;margin-bottom: 0px;"><em>LAST DONATION:&nbsp; Иванов Ю. 10.000</em></p><span class="d-block d-none d-sm-inline" style="font-size: 10px;color: rgba(94,94,94,0.72);user-select: none;margin-right: 11px;">Copyright © 2024 <strong>Smartbook.pro.</strong> All rights reserved.</span>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="list-group sort">
                     <li class="list-group-item"><span style="font-size: 8px;color: #b4841e;">СОРТИРОВКА</span></li>
@@ -164,6 +164,7 @@
                     <div class="py-4 py-lg-0 px-lg-4" style="padding-bottom: 0px;">
                         <h4 style="font-family: 'SF Pro Display';margin-bottom: 4px;text-align: left;">Алиса в Стране Чудес</h4>
                         <h6 class="text-start" style="/*font-family: 'Fira Sans', sans-serif;*//*margin-bottom: 0px;*/">Георг Вильгельм Фридрих Гегель (1928)</h6>
+                        <hr class="d-inline" style="background: var(--bs-emphasis-color);margin-top: auto;">
                         <p style="margin-bottom: 0px;">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br><button class="btn btn-primary btn-lg fw-bold text-end" type="button" style="text-align: right;">Читать</button></p>
                     </div>
                 </div>
@@ -174,7 +175,8 @@
                     <div class="py-4 py-lg-0 px-lg-4">
                         <h4 class="text-start" style="/*font-family: 'Fira Sans', sans-serif;*/margin-bottom: 4px;">Наука логики</h4>
                         <h6 class="text-start" style="/*font-family: 'Fira Sans', sans-serif;*//*margin-bottom: 0px;*/">Георг Вильгельм Фридрих Гегель (1928)</h6>
-                        <p class="text-start" style="margin-bottom: 0px;">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br><button class="btn btn-primary btn-lg fw-bold text-end d-sm-flex justify-content-sm-end" type="button" style="text-align: right;">Читать</button></p>
+                        <hr class="d-inline" style="background: var(--bs-emphasis-color);">
+                        <p class="text-start" style="margin-bottom: 0px;"><img class="float-start fra" src="assets/img/fra.png" style="margin-right: 7px;">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.<br><button class="btn btn-primary btn-lg fw-bold text-end d-sm-flex justify-content-sm-end" type="button" style="text-align: right;">Читать</button></p>
                     </div>
                 </div>
             </div>
@@ -184,7 +186,8 @@
                     <div class="py-4 py-lg-0 px-lg-4">
                         <h4>Капитал&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h4>
                         <h6 class="text-start" style="/*font-family: 'Fira Sans', sans-serif;*//*margin-bottom: 0px;*/">Георг Вильгельм Фридрих Гегель (1928)</h6>
-                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                        <hr class="d-inline" style="background: var(--bs-emphasis-color);">
+                        <p><img class="float-start fra" src="assets/img/fra.png" style="margin-right: 7px;">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                     </div>
                 </div>
             </div>
@@ -193,6 +196,7 @@
                     <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/Screenshot%202024-04-12%20105719.png"></div>
                     <div class="py-4 py-lg-0 px-lg-4">
                         <h4>Цицерон</h4>
+                        <hr class="d-inline" style="background: var(--bs-emphasis-color);">
                         <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                     </div>
                 </div>
@@ -202,6 +206,7 @@
                     <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/demdix_The_Euclidian_Arbitrarium_with_Plato_and_Aristotle_85b5c503-3308-4bb6-9683-84c0f441db25.webp"></div>
                     <div class="py-4 py-lg-0 px-lg-4">
                         <h4 style="text-align: left;">Античная философия</h4>
+                        <hr class="d-inline" style="background: var(--bs-emphasis-color);">
                         <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                     </div>
                 </div>
@@ -211,7 +216,8 @@
                     <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/Artboard3%203.png"></div>
                     <div class="py-4 py-lg-0 px-lg-4">
                         <h4>Ленинизм</h4>
-                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                        <hr class="d-inline" style="background: var(--bs-emphasis-color);">
+                        <p><img class="float-start fra" src="assets/img/fra.png" style="margin-right: 7px;">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                     </div>
                 </div>
             </div>
@@ -220,7 +226,8 @@
                     <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/Artboard%209-1.webp"></div>
                     <div class="py-4 py-lg-0 px-lg-4">
                         <h4>Сталин</h4>
-                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                        <hr class="d-inline" style="background: var(--bs-emphasis-color);">
+                        <p><img class="float-start fra" src="assets/img/fra.png" style="margin-right: 7px;">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                     </div>
                 </div>
             </div>
@@ -229,6 +236,7 @@
                     <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/artwork777.webp"></div>
                     <div class="py-4 py-lg-0 px-lg-4">
                         <h4>Эстетика</h4>
+                        <hr class="d-inline" style="background: var(--bs-emphasis-color);">
                         <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                     </div>
                 </div>
@@ -238,7 +246,8 @@
                     <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/art%206.webp"></div>
                     <div class="py-4 py-lg-0 px-lg-4">
                         <h4>Марксизм</h4>
-                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                        <hr class="d-inline" style="background: var(--bs-emphasis-color);">
+                        <p><img class="float-start fra" src="assets/img/fra.png" style="margin-right: 7px;">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                     </div>
                 </div>
             </div>
@@ -247,7 +256,8 @@
                     <div class="w-100"><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" src="assets/img/art%204.webp"></div>
                     <div class="py-4 py-lg-0 px-lg-4">
                         <h4>Свободное время</h4>
-                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                        <hr class="d-inline" style="background: var(--bs-emphasis-color);">
+                        <p><img class="float-start fra" src="assets/img/fra.png" style="margin-right: 7px;">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                     </div>
                 </div>
             </div>
